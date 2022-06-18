@@ -1,0 +1,207 @@
+.nav{
+    background-color: #fffafa;
+    padding: auto;
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 1px solid rgba(43,43,43,0.137);
+
+}
+
+.navlinks{
+    color:rgb(0, 0, 0);
+    text-decoration: none;
+    font-family:  "Segoe UI", Tahoma, "Geneva", Verdana, "sans-serif " ; 
+    margin: 1vmax,1.5vmax;
+    font-weight: 500;
+    font-size:1.1vmax ;
+    padding:  2vmax;
+    
+}
+
+
+.navlinks:hover{
+    text-decoration: none;
+    color:rgb(10, 80, 194) ;
+}
+
+.logo{
+    color: rgb(71, 38, 38) !important;
+    width: 8vmax;   
+    /* border: 1px solid black; */
+    height: 4vmax;  
+    border-radius: 10px;
+    overflow: hidden;
+    position: absolute;
+    left: 3vmax;
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    cursor: pointer;
+    transform: scale(1.5);
+    text-decoration: none;
+
+
+    
+}
+
+.logotohome :hover{
+    text-decoration: none ,!important;
+    color: #fffafa;
+    
+
+}
+
+/* .logo{
+    width: 4vmax;       
+    position: absolute;
+    left: 3vmax;
+    height: 2vmax;  
+    /* border: 1px solid; */
+    /* justify-content: center; */
+    /* /* text-align: center; */
+    /* align-items:flex-start;  */
+
+    /* color: rgb(255, 237, 71); */
+
+    /* transform: scale(1.5); */
+
+  
+   
+  */
+   
+
+
+ /* .logo > img{
+ 
+    height: 4vmax ;
+     width: 4vmax; 
+}   */
+
+
+
+
+
+.searchbox{
+    max-width: 60%;
+    display: flex;  
+    position: relative; 
+    left: 12vmax; 
+    justify-content: center; 
+    align-items: center; 
+    /* font-family: "Roboto"  "Segoe UI", Tahoma, "Geneva", Verdana, "sans-serif " ; */
+
+
+}
+
+
+
+.searchbox > input{
+    background-color: #fffafa;
+     /* font-family: "Roboto"  "Segoe UI", Tahoma, "Geneva", Verdana, "sans-serif " ; */
+
+    border: none;
+    border-bottom: 1.5px solid rgba(44, 43, 43, 0.664);
+    font-size: 1.1vmax;
+    width: 15vmax;
+    outline: none;
+    height: 1.7vmax;
+    color: rgb(23, 24, 21);
+    font-weight: 100;
+
+}
+
+.searchbox > svg{
+    fill:rgb(255, 255, 255);
+    position: absolute;
+
+} 
+
+
+.navIcons{
+    max-width: 60%;
+    display: flex;  
+    position: relative; 
+    justify-content: center;
+    align-items: center;
+    /* border:  2px solid black; */
+
+    height: 2vmax;
+    /* width: 10vmax; */
+    left: 13vmax;
+    
+    
+
+} 
+
+
+#userIcon{
+   
+    position:relative;
+    padding-left: 2vmax ;
+    height: 1.8vmax;
+
+}
+
+.navIcons > a{
+    text-decoration: none;
+    color: black;
+}
+
+.navIcons > a:hover{
+    text-decoration: none;
+    color: black;
+}
+
+.cartIcon{
+    position:static;
+    text-decoration: none;
+    padding-left: 1vmax  ;
+    height: 2vmax;
+    color: rgb(34, 32, 30);
+
+}
+
+#userIcon:hover{
+    
+   
+    height: 1.9vmax;
+    transition: 0.2ms;
+   
+
+}
+
+#cartIcon:hover{
+
+    text-decoration: none;
+    height: 2.1vmax;
+    transition: 0.2ms;
+}
+
+
+
+
+/* ---------------------speedDial----------------------------------- */
+
+.speedDial{
+    position:fixed;
+    right:2vmax;
+    top:6vmax;
+}
+
+.speedDialIcon{
+    width: 55px;
+    height: 55px;
+    border-radius: 100%;
+}
+@media screen and (max-width: 600px) {
+    .speedDial{
+    right:12vmax;
+    top:8vmax;
+
+        
+    }
+    
+
+}
