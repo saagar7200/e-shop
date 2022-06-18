@@ -10,15 +10,6 @@
   "keywords": [],
   "author": "sagar",
   "license": "ISC",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/saagar7200/e-shop.git"
-  },
-  "bugs": {
-    "url": "https://github.com/saagar7200/e-shop/issues"
-  },
-  "homepage": "https://github.com/saagar7200/e-shop#readme",
-  "description": "",
   "dependencies": {
     "bcryptjs": "^2.4.3",
     "body-parser": "^1.20.0",
